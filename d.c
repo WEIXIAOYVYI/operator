@@ -75,7 +75,7 @@ int main(int argc,char *argv[]){
 	in=fopen(argv[1],"r");	
 	c=fgetc(in);
 	while(c!=EOF){
-		if(c=='\n'){
+		if(c=='\r\n'){
 			c='#';	
 		}
 			
