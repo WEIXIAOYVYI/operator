@@ -80,7 +80,7 @@ int main(int argc,char *argv[]){
 		}
 			
 		int tmp1=-1,tp=-1,tmp2=-1;
-		if((tmp1=check(topend))==-1||(tmp2=check(c))==-1||cmp[tmp1][tmp2]==-1){
+		if((tmp1=check(topend))==-1||(tmp2=check(c))==-1||((top!=1||opg[top]!='N')&&cmp[tmp1][tmp2]==-1)){
 			printf("E\n");
 			break;
 		}	
